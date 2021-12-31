@@ -1,5 +1,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto;
 }
 
 .header-intro {
@@ -10,7 +11,7 @@ body {
   font-size: 24px;
   color: #F9FAF8;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 16px;
 }
 
@@ -22,14 +23,15 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 16px;
-  padding: 200px;
-  padding-left: 225px;
-  padding-right: 225px;
+  padding: 100px 200px;
+}
+
+.text {
+  padding: 15px;
 }
 
 img {
-  width: 500px;
+  width: 510px;
 }
 
 a {
@@ -55,6 +57,8 @@ ul {
 .hero-secondary-text {
   font-size: 18px;
   color: #E5E7EB;
+  padding-right: 60px;
+  padding-bottom: 15px;
 }
 
 button {
@@ -82,7 +86,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .info-images img {
@@ -106,20 +110,22 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #E5E7EB;
-  padding: 250px;
+  padding: 100px 250px;
 }
 
 .quote .text {
+  color: #1F2937;
   font-size: 36px;
-  font-style: oblique 10deg;
-  max-width: 1000px;
+  font-weight: lighter;
+  font-style: italic;
+  max-width: 730px;
 }
 
 .quote .author {
   display: flex;
   margin-left: auto;
-  padding-right: 50px;
-  font-size: 28px;
+  padding-right: 120px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -153,6 +159,8 @@ button {
 .call-to-action button {
   border-color: white;
   width: 120px;
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 .footer {
